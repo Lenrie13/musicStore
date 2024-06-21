@@ -1,4 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
 body {
+    min-height: 100vh;
+    background-image: url('Background.jpeg');
+}
+
+    /* body {
     background-color: #FFE5F1;
 }
 .head-title {
@@ -9,7 +20,7 @@ body {
     padding-bottom: 4px;
     color: white;
     background-color: #FF597B;
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 100%;
     display: block;
     left: 0px;
@@ -20,19 +31,23 @@ body {
     max-width: 100%;
     flex-wrap: wrap;
 }
-.music {
+.card {
     border-radius: 4px;
     margin-right: 12px;
-    height: 100%;
+    height: 100px;
+    width: 60px;
     padding: 4px;
     margin-bottom: 20px;
     margin-top: 10px;
     box-shadow: 10px 10px 5px #B4B4B8;
     background-color: #DDDDDD;
 }
-.music-image {
-    height: 80px;
-    width: 100px;
+.card-img-top {
+    height: 120px;
+    width: 50px;
+}
+.play-buttton {
+    margin-left: 0px;
 }
 footer p {
     background-color:#222831;
@@ -49,16 +64,19 @@ footer p {
     padding-bottom: 4px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.track-name {
+.card-title {
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
     font-weight: bold;
 }
-.artist-name {
+.card-text {
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: small;
 }
+.btn btn-primary {
+    color: green;
+} */
